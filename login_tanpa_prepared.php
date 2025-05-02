@@ -11,7 +11,7 @@
 
   <?php
   if (isset($_POST['login'])) {
-    $conn = new mysqli("localhost", "root", "", "demo");
+    $conn = new mysqli("localhost", "root", "", "coba_web");
 
     $username = $_POST['username'];
     $password = $_POST['password'];
